@@ -16,6 +16,14 @@ Le pattern décorateur est un patron de conception structurel qui permet d’ajo
 
 Supposons une interface `Boisson` avec une méthode `getDescription()` et `cout()`. On peut créer des décorateurs comme `Lait` ou `Chocolat` qui ajoutent des fonctionnalités à une boisson de base.
 
+Autre exemple, dans InputStream en Java, où des décorateurs comme `BufferedInputStream` ajoutent des fonctionnalités de mise en cache à un flux d'entrée de base.
+
+`InputStream is = new BufferedInputStream(new FileInputStream("file.txt"));`
+
+ou encore
+
+`InputStream is = new BuffredReader(new BufferedInputStream(new FileInputStream("file.txt"));`
+
 ## Résultat d'exécution
 
 ```bash
