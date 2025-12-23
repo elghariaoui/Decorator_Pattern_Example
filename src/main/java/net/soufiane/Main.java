@@ -35,5 +35,11 @@ public class Main {
         System.out.println("Description: " + boisson.getDescription());
         System.out.println("Cout: " + boisson.cout());
 
+        System.out.println("-----exemple de composition -----");
+        boisson = new Caramel(new Noisette(new Chocolat(new Noisette(new Espresso()))));
+        System.out.println("Description: " + boisson.getDescription());
+        System.out.println("Cout: " + boisson.cout());
+
+
     }
 }

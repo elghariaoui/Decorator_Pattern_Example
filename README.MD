@@ -46,6 +46,14 @@ Cout: 13.75
 Ajout de Noisette
 Description: Espresso + Chocolat + Caramel + Chocolat + Noisette
 Cout: 14.75
+-----exemple de composition -----
+Espresso
+Ajout de Noisette
+Ajout de Chocolat
+Ajout de Noisette
+Ajout de Caramel
+Description: Espresso + Noisette + Chocolat + Noisette + Caramel
+Cout: 15.25
 ```
 ## Diagramme Decorateur
 
