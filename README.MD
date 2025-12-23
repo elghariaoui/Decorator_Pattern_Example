@@ -40,6 +40,5 @@ Description: Espresso + Chocolat + Caramel + Chocolat + Noisette
 Cout: 14.75
 ```
 ## Diagramme Decorateur
-<div style="margin: 20px auto;">
-<img src="captures/Capture_diagram_decorateur.png" alt="Diagramme Decorateur"  width="700" align="left"/>
-</div>
+
+<img src="captures/Capture_diagram_decorateur.png" alt="Diagramme Decorateur"  width="700"/>
